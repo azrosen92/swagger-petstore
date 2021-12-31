@@ -52,6 +52,8 @@ paths:
                 $ref: '#/components/schemas/Pet'
         '405':
           description: Invalid input
+        '422':
+          description: Invalid input
       security:
         - petstore_auth:
             - 'write:pets'
